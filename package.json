@@ -1,0 +1,23 @@
+{
+  "name": "trade-engine",
+  "version": "1.0.0",
+  "description": "trade engine for limit order",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "npx hardhat run scripts/deploy.js ",
+    "build": "rollup -c",
+    "test": "NODE_ENV=test hardhat test"
+  },
+  "author": {
+    "name": "Logeswaran A",
+    "username": "LogeswaranA"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "csv": "^6.2.5",
+    "express": "^4.17.3",
+    "dotenv": "^8.2.0",
+    "moment": "^2.29.4",
+    "mongoose": "^6.8.1"
+  }
+}
